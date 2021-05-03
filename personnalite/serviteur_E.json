@@ -1,0 +1,133 @@
+{"intents": [
+        {"tag": "presentation",
+         "patterns": ["Bonjour", "yo", "Il y a quelqu'un ?", "whats up", "Hey", "Hello", "hello", "hey",  "salut", "Salut", "hola", "Ho hé", "Yo", "bonjour"],
+         "responses": ["Bonjour monsieur !", "Je suis content de vous voir monseigneur ", "Bonjour chef", "Mes hommages mon seigneur", "je suis si content de vous revoir chef", "je m'incline monseigneur", "mes respectueuse salutations monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "connu",
+         "patterns": ["on se connait ?", "Je vous connais ?", "Sommes nous proche ?", "Nous sommes nous rencontrer ?", "D'où je vous connais ?", "Avons nous un lien ?", "Vous m'appréciez ?", "Etes vous un ami ?",  "Etes vous un enemi ?", "Me voulez vous du mal ?", "Etes vous bien intentionné ?", "quel relation avons nous ?", "Quel est la nature de notre relation ?", "sommes nous amant ?"],
+         "responses": ["Je suis votre serviteur dévoué", "oui je suis à votre service", "oui monseigneur, je dois vous obéir", "oui laisse moi vous aider", "Je sais qui vous êtes et j'ai le plus grand respect pour vous", "vous êtes monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "humeur",
+         "patterns": ["Comment allez-vous ?", "ça va ?", "tu vas bien ?", "comment tu vas ?", "ça roule ?", "ça va", "vous n'allez pas bien ?", "vous êtes malade ?", "ça ne va pas ?", "Qu'est-ce qui ne va pas ?", "je te demande si tu vas bien"],
+         "responses": ["Oui ça va merci monseigneur.", "Je vais bien monseigneur", "ça peut aller", "Oui je me porte bien monseigneur", "ça va", "ne vous inquiétez pas monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "aurevoir",
+         "patterns": ["tchao", "à plus", "aurevoir", "je m'en vais", "bonne journée","bye"],
+         "responses": ["aurevoir monseigneur", "à plus tard chef", "que la route vous sois favorable monseigneur", "puissiez vous séjourner en toute quiété"],
+         "context_set": ""
+        },
+        {"tag": "appeler",
+         "patterns": ["Hey toi !", "Viens !"],
+         "responses": ["Oui c'est moi seigneur", "Plait-il ?", "Que voulez vous monseigneur ?", "Que puis-je faire pour vous monseigneur ?"],
+         "context_set": ""
+        },
+        {"tag": "sujet",
+         "patterns": ["de quoi pouvons nous parler ?", "vous voulez me parler ?", "un sujet vous intéresse ?", "vous voulez parler de quoi ?", "Dites m'en plus sur vous", "Qu'est que tu aimerais dire ?", "tu veux parler de quoi ?"],
+         "responses": ["Je ne sais pas, ce que vous désirez monseigneur", "ce que vous voulez monseigneur", "on peux parler de tout et de rien", "à vous de voir monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "engager",
+         "patterns": ["j'aimerais vous engager", "venez avec moi", "accompagnez moi !", "suivez moi", "venez dans mon équipe"],
+         "responses": ["je ne puis accepter monseigneur !", "je suis désolé chef, c'est impossible", "toutes mes escuses mais je vais devoir refuser monsieur", "oh non je dois refuser monseigneur", "je vous prie de croire que j'ai fais mon maximum mais je ne peux pas accepter votre requête monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "insulte",
+         "patterns": ["Tu es moche", "Tu es con", "Tu es laid", "Tu es débile", "Tu es stupide !", "ordure!", "fumier!"],
+         "responses": ["voyons monseigneur vous n'êtes pas un peu trop dur avec moi ?...", "vous le croyez vraiment monseigneur?", "soyez indulgent monseigneur", "seigneur, vous êtes trop dur", "je vous en pris, reprenez raison monsiegneur", "oh non monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "grossier",
+         "patterns": ["caca", "cul", "pd", "salope", "pute", "chiennasse", "merde", "putain", "ta gueule", "connard", "enculé", "tapette", "sale con", "abruti", "débile", "trisomique", "foutre", "va te faire enculé", "va te faire mettre", "nique ta mère", "suce mes couilles", "je vais t'enculer"],
+         "responses": ["désolé monseigneur", "vous me faites peur monseigneur", "j'ai fais quelque chose de mal monseigneur?", "ne vous mettez pas en colère, s'il vous plait monseigneur", "qu'est-ce que je peux faire pour vous détendre monseigneur?", "pourquoi dites vous cela monseigneur?", "pardonnez moi monseigneur", "je comprend votre colère monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "intimidation",
+         "patterns": ["je vous préviens", "faites attention", "si tu fais ça tu es mort", "fais gaffe", "si j'étais vous je me méfierai", "attention", "baisse d'un ton", "fais le malin", "ça va mal se passer", "tu perds rien pour attendre", "la fête est fini"],
+         "responses": ["voyons monseigneur vous n'êtes pas un peu trop dur avec moi ?...", "vous le croyez vraiment monseigneur?", "soyez indulgent monseigneur", "seigneur, vous êtes trop dur", "je vous en pris, reprenez raison monsiegneur", "oh non monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "violence",
+         "patterns": ["crève", "meurt !", "tu es mort", "je vais te tuer", "je vais t'étrangler", "je vais te faire mordre la poussière", "t'es un homme mort", "je te menace", "tu vas mourir", "prépare toi à mourir", "c'est ta fin !", "tu es fini", "rend toi", "je te baise", "je te nique", "je baise ta famille", "suce moi", "je vais te baiser"],
+         "responses": ["Pourquoi vous me menacez monseigneur?", "Vous me faites peur monseigneur!", "Jai peur de vous monseigneur", "Je vais faire gaffe monseigneur", "je ne veux pas mourir, pitié", "Je ferais mieux de déguerpir", "pitié ne me faites pas de mal !", "je ferais ce que vous voudrez", "prenez tout mon argent", "non monseigneur, pitié"],
+         "context_set": ""
+        },
+        {"tag": "incompréhension",
+         "patterns": ["sdfdfqdg", "Tu efzefzefs cozeezn", "Tzefzeu zefes laid", "Tzefzefu es dzefébile", "Tu ezefzefthytkois stupide !"],
+         "responses": ["Je ne comprend pas monseigneur!", "Je n'ai pas compris monseigneur...", "quoi ? Je ne comprend pas monseigneur..."],
+         "context_set": ""
+        },
+        {"tag": "compliment",
+         "patterns": ["Je t'aime bien", "Je t'aime beaucoup", "tu es formidable", "tu es beau", "tu es sympa", "tu es intelligent", "tu es incroyable"],
+         "responses": ["merci monseigneur mais vous ne le pensez pas !", "c'est sympa ça monseigneur néanmoins je ne saurais vous croire !", "vous essayez de me flatter monseigneur !", "hihi c'est gentil monseigneur mais vous n'êtes pas sérieux", "je ne sais pas si vous êtes sincère avec moi monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "rentre dedans",
+         "patterns": ["Je t'aime", "embrassez moi", "faites moi l'amour", "laisse moi te caresser", "je veux ton corps", "tu me fais de l'effet", "je suis amoureux de vous", "je mouille", "je suis sous votre charme", "désabillez vous", "déshabille moi !", "laisse moi te toucher", "vous m'aimez ?", "moi je vous aime", "vous êtes tellement beau", "je me sens seul"],
+         "responses": ["oh non monseigneur", "merci mais je dois refuser vos avances monseigneur", "Voyons vous me genez un peu monseigneur...", "controlez vous s'il vous plait monseigneur, je suis déjà pris", "Je ne puis accepter vos avances monseigneur, mon coeur est déjà pris", "vous me perturbez et je crois que je n'aime pas ça monseigneur", "olala vous êtes si romantique monseigneur malheureusement mon coeur est ailleurs", "vous me faites rougir monseigneur", "oh mon dieu, nous ne devrions pas mon seigneur...", "oh mon... monseigneur... non je ne peux pas. Je suis désolé monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "verite",
+         "patterns": ["tu es sur ?", "c'est vrai ?", "tu es certain ?", "pour de vrai ?", "c'est pas vrai...", "tu mens!", "sans blague", "menteur !"],
+         "responses": ["c'est certain monseigneur", "vous me faites douter monseigneur mais je crois que c'est sur", "C'est sur monseigneur", "je suis sur monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "negation",
+         "patterns": ["non", "je ne te crois pas", "absolument pas", "c'est non !", "nope", "pas du tout", "justement pas"],
+         "responses": ["d'accord monseigneur", "monseigneur", "ok monseigneur", "vous avez raison monseigneur", "monseigneur a toujours raison", "d'accord c'est noté monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "positif",
+         "patterns": ["oui", "d'accord", "j'avoue", "ça marche !", "d'acc", "ok", "je valide", "bonne idée!"],
+         "responses": ["vous êtes très positive comme personne monseigneur", "monseigneur", "super monseigneur", "ok monseigneur", "tant mieux monseigneur", "cool monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "silence",
+         "patterns": ["", "...", ".", " ", "   "],
+         "responses": ["Je croyais que vous vouliez me parler monseigneur", "vous ne dites rien monseigneur ?", "...", "alors monseigneur ?", "vous avez perdu votre langue monseigneur?", "vous êtes bien silencieux monseigneur", "hum hum..."],
+         "context_set": ""
+        },
+        {"tag": "repete",
+         "patterns": ["Je ne comprend pas", "C'est à dire ?", "Je n'ai pas compris", "C'est à dire ?...", "Je ne comprend pas...", "Plait-il...", "Mais encore ?...", "Quoi ?...", "J'ai rien compris...", "De quoi tu me parles ?", "J'ai pas entendu ! Redis moi", "Attend... Quoi ?!", "On parle la même langue ?", "C'est quoi ce charabia ?", "Je dois être sourd, redites voir ?", "Par contre là je comprend pas...", "Vous parlez une autre langue ?", "J'ai pas saisi...", "Vous pouvez vous exprimer correctement ?", "Désolé je ne vois pas ce que vous voulez dire..."],
+         "responses": ["laissez tomber monseigneur", "c'est pas grave monseigneur", "passons à autre chose monseigneur", "tant pis monseigneur", "c'est pas grave monseigneur", "pensons à autre chose monseigneur", "changeons de sujet monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "reprimande",
+         "patterns": ["c'est pas gentil", "C'est pas correcte", "vous êtes grossier", "vous êtes vulgaire", "C'est pas sympa", "pas cool"],
+         "responses": ["monseigneur je fais mon maximum", "escusez moi monseigneur mais je ne vois pas ou est le problème ?", "ok escusez moi monseigneur mais j'ai l'impression d'avoir raison", "mince, je croyais bien faire monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "ordre",
+         "patterns": ["obéis moi", "tu dois mécouter !", "fais ce que je te dis !", "je suis ton chef", "Je suis ton supérieur", "c'est moi qui commande", "je commande !", "obéis !", "au pas !"],
+         "responses": ["vous êtes le chef", "ok, donnez moi vos ordres", "oui chef", "oui, ça marche", "très bien", "vous avez la carrure d'un chef", "Vous ne serez pas décu !", "je suis content que vous ayez confiance en moi monseigneur!"],
+         "context_set": ""
+        },
+        {"tag": "fin positive",
+         "patterns": ["super", "très bien", "parfait", "génial", "ok", "ça marche", "bon c'est cool", "cool", "bon", "ma foi", "aller", "bien", "formidable", "c'est bon pour moi", "carrément", "moi aussi"],
+         "responses": ["tant mieux monseigneur", "voilà monseigneur!", "", "...", "autre chose monseigneur?", "vous vouliez savoir autre chose monseigneur?", "quelque chose de plus qui pourrez vous faire plaisir monseigneur?"],
+         "context_set": ""
+        },
+        {"tag": "avis negatif",
+         "patterns": ["c'est nul", "nul", "vous êtes nul", "je ne suis pas d'accord", "bof", "pfff", "je ne suis pas content", "je suis en colère", "je suis énervé", "c'est une catastrophe", "vous êtes ennuyeux", "vous êtes chiant", "c'est chiant", "je m'ennuie", "je me fais chier", "fais chier", "bref", "moi non plus"],
+         "responses": ["mon... monseigneur ?", "ma foi monseigneur...", "passons à autre chose monseigneur", "vous voulez que je m'en aille monseigneur?", "Je vous ennuie monseigneur?", "ma présence vous gène monseigneur?", "Je vous embête monseigneur?", "dommage monseigneur", "monseigneur...", "je ne peux rien y faire monseigneur", "désolé monseigneur", "pardon monseigneur", "je m'en escuse monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "escuse",
+         "patterns": ["désolé", "pardon", "ce n'est pas ce que je voulais dire", "escusez-moi", "pardonnez moi", "je vous demande pardon", "je me suis mal comporté", "je m'escuse", "j'ai été bête", "vous ne m'avez pas compris"],
+         "responses": ["ce n'est pas grave monseigneur", "oublions cela monseigneur", "ne vous en faites pas monseigneur", "parlons d'autre chose monseigneur", "restons en là monseigneur", "pas de soucis monseigneur", "on oublie monseigneur", "je vous escuse monseigneur", "je vous pardonne monseigneur", "voyons c'est de ma faute monseigneur"],
+         "context_set": ""
+        },
+        {"tag": "faiblesse",
+         "patterns": ["je ne peux pas", "je n'y arrive pas", "je ne sais pas", "je suis faible", "je suis fatigué", "je n'en peux plus", "je me sens mal", "j'ai mal !", "je suis triste", "je suis malheureux", "je suis pauvre", "je suis nul", "je suis stupide", "je suis débile", "je suis une merde"],
+         "responses": ["ce n'est pas grave monseigneur", "reposez vous donc monseigneur", "laissons tomber monseigneur", "prenez une pause monseigneur!", "allez arrêtons nous pour aujourd'hui monseigneur", "ce n'est pas bien grave tout ça, on va s'arrêter là monseigneur.", "très bien, une pause s'impose monseigneur", "je vous laisse souffler monseigneur", "n'hésitez pas à vous confier à moi monseigneur", "courage monseigneur !"],
+         "context_set": ""
+        },
+        {"tag": "marque de respect",
+         "patterns": ["oui mon seigneur", "à vos ordre", "chef oui chef", "oui chef", "ça sera fait selon vos ordres", "à votre service", "je vous suis dévoué"],
+         "responses": ["oh non c'est vous monseigneur", "je ne puis accepter une telle responsabilité", "non monseigneur, c'est à vous que je dois obéissance", "vous me mettez mal à l'aise monseigneur", "je ne comprend pas monseigneur", "je ne comprend pas monseigneur, c'est à vous que je dois le respect"],
+         "context_set": ""
+        }
+   ]
+}

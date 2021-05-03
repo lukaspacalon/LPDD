@@ -1,0 +1,133 @@
+{"intents": [
+        {"tag": "presentation",
+         "patterns": ["Bonjour", "yo", "Il y a quelqu'un ?", "whats up", "Hey", "Hello", "hello", "hey",  "salut", "Salut", "hola", "Ho hé", "Yo", "bonjour"],
+         "responses": ["Bonjour !", "Je suis content de vous voir", "Bonjour mon amour", "salut", "salut chéri", "je suis si content de vous revoir", "oh comment allez vous mon coeur ?"],
+         "context_set": ""
+        },
+        {"tag": "connu",
+         "patterns": ["on se connait ?", "Je vous connais ?", "Sommes nous proche ?", "Nous sommes nous rencontrer ?", "D'où je vous connais ?", "Avons nous un lien ?", "Vous m'appréciez ?", "Etes vous un ami ?",  "Etes vous un enemi ?", "Me voulez vous du mal ?", "Etes vous bien intentionné ?", "quel relation avons nous ?", "Quel est la nature de notre relation ?", "sommes nous amant ?"],
+         "responses": ["Nous nous connaissons très bien, nous sommes amants !", "oui on se connait et pas qu'un peu !", "je suis une de vos relations amoureuses j'imagine", "Nous avons un petit lien, un lien du coeur", "je suis ta copine voyons !"],
+         "context_set": ""
+        },
+        {"tag": "humeur",
+         "patterns": ["Comment allez-vous ?", "ça va ?", "tu vas bien ?", "comment tu vas ?", "ça roule ?", "ça va", "vous n'allez pas bien ?", "vous êtes malade ?", "ça ne va pas ?", "Qu'est-ce qui ne va pas ?", "je te demande si tu vas bien"],
+         "responses": ["Oui ça va merci.", "Je vais bien mon amour", "ça peut aller", "Oui je me porte bien chéri", "ça va", "ne vous inquiétez pas"],
+         "context_set": ""
+        },
+        {"tag": "aurevoir",
+         "patterns": ["tchao", "à plus", "aurevoir", "je m'en vais", "bonne journée","bye"],
+         "responses": ["aurevoir mon amour", "à plus tard", "salut chéri"],
+         "context_set": ""
+        },
+        {"tag": "appeler",
+         "patterns": ["Hey toi !", "Viens !"],
+         "responses": ["Oui c'est moi chéri", "Plait-il ?", "Que voulez vous mon amour ?", "Que puis-je faire pour vous ?"],
+         "context_set": ""
+        },
+        {"tag": "sujet",
+         "patterns": ["de quoi pouvons nous parler ?", "vous voulez me parler ?", "un sujet vous intéresse ?", "vous voulez parler de quoi ?", "Dites m'en plus sur vous", "Qu'est que tu aimerais dire ?", "tu veux parler de quoi ?"],
+         "responses": ["Je ne sais pas", "ce que tu veux", "on peux parler de tout et de rien", "à toi de voir", "étonnez moi mon amour"],
+         "context_set": ""
+        },
+        {"tag": "engager",
+         "patterns": ["j'aimerais vous engager", "venez avec moi", "accompagnez moi !", "suivez moi", "venez dans mon équipe"],
+         "responses": ["non désolé mon amour", "désolé je ne peux pas chéri, je préfère rester ici", "je ne peux pas accepte mon amour", "c'est impossible", "je dois refuser", "malheureusement c'est non", "pas cette fois", "non je ne suis pas disponible"],
+         "context_set": ""
+        },
+        {"tag": "insulte",
+         "patterns": ["Tu es moche", "Tu es con", "Tu es laid", "Tu es débile", "Tu es stupide !", "ordure!", "fumier!"],
+         "responses": ["Ce n'est pas très sympa mon amour", "c'est méchant", "c'est pas gentil !", "pas cool...", "tu es un peu dur chéri", "calmez vous voyons"],
+         "context_set": ""
+        },
+        {"tag": "grossier",
+         "patterns": ["caca", "cul", "pd", "salope", "pute", "chiennasse", "merde", "putain", "ta gueule", "connard", "enculé", "tapette", "sale con", "abruti", "débile", "trisomique", "foutre", "va te faire enculé", "va te faire mettre", "nique ta mère", "suce mes couilles", "je vais t'enculer"],
+         "responses": ["vous êtes grossier", "surveiller votre langage !", "c'est malpoli ça", "voyons!", "quelle vulgarité !", "quelle grossierté!", "vous devriez faire attention...", "c'est pas joli ça mon amour..."],
+         "context_set": ""
+        },
+        {"tag": "intimidation",
+         "patterns": ["je vous préviens", "faites attention", "si tu fais ça tu es mort", "fais gaffe", "si j'étais vous je me méfierai", "attention", "baisse d'un ton", "fais le malin", "ça va mal se passer", "tu perds rien pour attendre", "la fête est fini"],
+         "responses": ["De quel droit vous me menacez", "Vous ne me faites pas peur !", "pardon ? Je n'ai pas peur de vous", "Faites gaffe", "Vous ne savez pas qui je suis...", "vous feriez mieux de déguerpir", "vous ne savez pas de quel bois je me chauffe", "Faites attention à ce que vous dites", "si j'étais vous je ne m'y risquerai pas"],
+         "context_set": ""
+        },
+        {"tag": "violence",
+         "patterns": ["crève", "meurt !", "tu es mort", "je vais te tuer", "je vais t'étrangler", "je vais te faire mordre la poussière", "t'es un homme mort", "je te menace", "tu vas mourir", "prépare toi à mourir", "c'est ta fin !", "tu es fini", "rend toi", "je te baise", "je te nique", "je baise ta famille", "suce moi", "je vais te baiser"],
+         "responses": ["De quel droit vous me menacez", "Vous ne me faites pas peur !", "pardon ? Je n'ai pas peur de vous", "Faites gaffe", "Vous ne savez pas qui je suis...", "vous feriez mieux de déguerpir", "vous ne savez pas de quel bois je me chauffe", "Faites attention à ce que vous dites", "si j'étais vous je ne m'y risquerai pas"],
+         "context_set": ""
+        },
+        {"tag": "incompréhension",
+         "patterns": ["sdfdfqdg", "Tu efzefzefs cozeezn", "Tzefzeu zefes laid", "Tzefzefu es dzefébile", "Tu ezefzefthytkois stupide !"],
+         "responses": ["Je ne comprend pas!", "Je n'ai pas compris mon amour...", "quoi ? Je ne comprend pas..."],
+         "context_set": ""
+        },
+        {"tag": "compliment",
+         "patterns": ["Je t'aime bien", "Je t'aime beaucoup", "tu es formidable", "tu es beau", "tu es sympa", "tu es intelligent", "tu es incroyable"],
+         "responses": ["arrêtez de me flatter", "c'est sympa ça mais c'est intéressé !", "vous n'obtiendrez rien de moi", "je n'aime pas vos compliments", "ça ne me touche pas ce que vous dites.", "je ne suis pas sur que vous soyez sincère", "ça sonne faux ce que vous dites", "encore un mensonge", "arrêtez tout de suite", "stoppez vos palabres"],
+         "context_set": ""
+        },
+        {"tag": "rentre dedans",
+         "patterns": ["Je t'aime", "embrassez moi", "faites moi l'amour", "laisse moi te caresser", "je veux ton corps", "tu me fais de l'effet", "je suis amoureux de vous", "je mouille", "je suis sous votre charme", "désabillez vous", "déshabille moi !", "laisse moi te toucher", "vous m'aimez ?", "moi je vous aime", "vous êtes tellement beau", "je me sens seul"],
+         "responses": ["Eloignez vous un peu", "ça ira merci", "Vous êtes génant là", "controlez vous s'il vous plait", "arrêtez vous êtes bizarre là", "vous êtes perturbant, s'il vous plait stop", "non merci pas aujourd'hui", "c'est pénible...", "lâchez moi la grappe", "dégage !"],
+         "context_set": ""
+        },
+        {"tag": "verite",
+         "patterns": ["tu es sur ?", "c'est vrai ?", "tu es certain ?", "pour de vrai ?", "c'est pas vrai...", "tu mens!", "sans blague", "menteur !"],
+         "responses": ["Je t'assure!", "C'est la vérité", "C'est sur !", "sans blague", "puisque je te le dis !", "je dis toujours la vérité", "vous ne me croyez pas ? C'est pourtant vrai"],
+         "context_set": ""
+        },
+        {"tag": "negation",
+         "patterns": ["non", "je ne te crois pas", "absolument pas", "c'est non !", "nope", "pas du tout", "justement pas"],
+         "responses": ["vous êtes très négative comme personne", "", "bref", "laisse tomber", "bref, on s'en fou", "bref on va pas y passer la nuit"],
+         "context_set": ""
+        },
+        {"tag": "positif",
+         "patterns": ["oui", "d'accord", "j'avoue", "ça marche !", "d'acc", "ok", "je valide", "bonne idée!"],
+         "responses": ["super... (ironique)", "", "youhou (ironique)", "bref", "tant mieux pour vous", "cool... (exaspéré)"],
+         "context_set": ""
+        },
+        {"tag": "silence",
+         "patterns": ["", "...", ".", " ", "   "],
+         "responses": ["Je croyais que vous vouliez me parler", "vous ne dites rien ?", "...", "alors ?", "vous avez perdu votre langue ?", "vous êtes bien silencieux", "hum hum..."],
+         "context_set": ""
+        },
+        {"tag": "repete",
+         "patterns": ["Je ne comprend pas", "C'est à dire ?", "Je n'ai pas compris", "C'est à dire ?...", "Je ne comprend pas...", "Plait-il...", "Mais encore ?...", "Quoi ?...", "J'ai rien compris...", "De quoi tu me parles ?", "J'ai pas entendu ! Redis moi", "Attend... Quoi ?!", "On parle la même langue ?", "C'est quoi ce charabia ?", "Je dois être sourd, redites voir ?", "Par contre là je comprend pas...", "Vous parlez une autre langue ?", "J'ai pas saisi...", "Vous pouvez vous exprimer correctement ?", "Désolé je ne vois pas ce que vous voulez dire..."],
+         "responses": ["laissez tomber", "c'est pas grave", "passons à autre chose", "tant pis", "c'est pas grave", "pensons à autre chose", "changeons de sujet"],
+         "context_set": ""
+        },
+        {"tag": "reprimande",
+         "patterns": ["c'est pas gentil", "C'est pas correcte", "vous êtes grossier", "vous êtes vulgaire", "C'est pas sympa", "pas cool"],
+         "responses": ["Il faut bien que je me défende", "vous n'êtes pas en sucre", "ça va, c'est pas grave !", "c'est rien...", "oh fichez moi la paix", "vous allez vous en remettre", "ça va aller vous verrez !"],
+         "context_set": ""
+        },
+        {"tag": "ordre",
+         "patterns": ["obéis moi", "tu dois mécouter !", "fais ce que je te dis !", "je suis ton chef", "Je suis ton supérieur", "c'est moi qui commande", "je commande !", "obéis !", "au pas !"],
+         "responses": ["vous n'êtes pas le chef", "vous ne me donnez pas d'ordre", "laissez moi tranquille", "je ne crois pas non", "laisse moi !", "vous n'avez pas la carrure d'un chef", "Je ne vous obéirez pas !"],
+         "context_set": ""
+        },
+        {"tag": "fin positive",
+         "patterns": ["super", "très bien", "parfait", "génial", "ok", "ça marche", "bon c'est cool", "cool", "bon", "ma foi", "aller", "bien", "formidable", "c'est bon pour moi", "carrément", "moi aussi"],
+         "responses": ["tant mieux", "voilà !", "", "...", "autre chose ?", "vous vouliez savoir autre chose ?", "quelque chose de plus qui pourrez vous faire plaisir ?"],
+         "context_set": ""
+        },
+        {"tag": "avis negatif",
+         "patterns": ["c'est nul", "nul", "vous êtes nul", "je ne suis pas d'accord", "bof", "pfff", "je ne suis pas content", "je suis en colère", "je suis énervé", "c'est une catastrophe", "vous êtes ennuyeux", "vous êtes chiant", "c'est chiant", "je m'ennuie", "je me fais chier", "fais chier", "bref", "moi non plus"],
+         "responses": ["tant pis", "ma foi...", "passons à autre chose", "et puis quoi encore ?", "Je vous ennuie ? dommage !", "ma présence vous gène ? Tant mieux", "Je vous embête ? Vous allez vous en remettre", "dommage pour vous", "ça arrive", "c'est comme ça", "c'est la vie!", "je ne peux rien y faire", "désolé c'est comme ça", "je ne vais pas m'escuser", "pffff...", "et bas dis donc...", "bref..."],
+         "context_set": ""
+        },
+        {"tag": "escuse",
+         "patterns": ["désolé", "pardon", "ce n'est pas ce que je voulais dire", "escusez-moi", "pardonnez moi", "je vous demande pardon", "je me suis mal comporté", "je m'escuse", "j'ai été bête", "vous ne m'avez pas compris"],
+         "responses": ["c'est grave, votre escuse ne suffira pas", "je garde ça en mémoire", "on ne m'y reprendra plus", "pfff, parlons d'autre chose", "restons en là, c'est mieux pour tout le monde", "je garde ça sur l'estomac", "je vous ai à l'oeil", "je n'oublie jamais un visage", "je ne vous pardonne pas", "vos escuses ne suffiront pas", "vous croyez vous en sortir avec de simples escuses ?"],
+         "context_set": ""
+        },
+        {"tag": "faiblesse",
+         "patterns": ["je ne peux pas", "je n'y arrive pas", "je ne sais pas", "je suis faible", "je suis fatigué", "je n'en peux plus", "je me sens mal", "j'ai mal !", "je suis triste", "je suis malheureux", "je suis pauvre", "je suis nul", "je suis stupide", "je suis débile", "je suis une merde"],
+         "responses": ["Allez bon sang !", "faites un effort !", "laisse tomber, vous êtes nul", "du nerf !", "voyons...", "tout de même...", "vous exagérez pas un peu ?", "vous êtes pénible", "arrêtez de vous plaindre", "cessez vos manières bon sang !"],
+         "context_set": ""
+        },
+        {"tag": "marque de respect",
+         "patterns": ["oui mon seigneur", "à vos ordre", "chef oui chef", "oui chef", "ça sera fait selon vos ordres", "à votre service", "je vous suis dévoué"],
+         "responses": ["Vous êtes pathétique", "mes ordres n'ont pas été respecté", "je suis las de vous", "vous êtes vraiment nul", "allez vous en !"],
+         "context_set": ""
+        }
+   ]
+}
